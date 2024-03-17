@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top, .top2 {
+    font-family: 'Unbounded';
+    background-color: #7cb6b6;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: #196464;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    padding: 10%;
+    justify-content: center ;
+}
+
+.elementos{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 55vh;
+    justify-content: center;
+    background-color: #7cb6b6;
+    padding: 3%;
+    border: solid 2px black;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 2vh;
+    font-family: 'Unbounded';
+    font-size: large;
+    text-shadow: 3px 3px 3px #ababab;
+}
